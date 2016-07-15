@@ -1,1 +1,1 @@
-# yii2-daemon
+# yii2-sms

@@ -1,0 +1,41 @@
+{
+  "name": "voodoo-mobile/yii2-daemon",
+  "type": "library",
+  "description": "Library for do background tasks in your app",
+  "keywords": [
+    "upload",
+    "binary"
+  ],
+  "homepage": "https://github.com/voodoo-mobile/yii2-daemon",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Voodoo Mobile Ltd",
+      "email": "public@voodoo-mobile.com",
+      "homepage": "http://voodoo-mobile.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0",
+    "vyants/yii2-daemon": "*"
+
+  },
+  "autoload": {
+    "psr-0": {
+      "Sms": "src"
+    },
+    "psr-4": {
+      "vm\\daemon\\": "src/"
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    },
+    "writable": [
+    ]
+  }
+}
