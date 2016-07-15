@@ -27,7 +27,7 @@
       "Sms": "src"
     },
     "psr-4": {
-      "vm\\daemon\\": "src/"
+      "vm\\background\\": "src/"
     }
   },
   "extra": {
