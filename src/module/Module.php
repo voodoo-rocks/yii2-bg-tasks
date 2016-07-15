@@ -5,7 +5,7 @@ use yii\base\BootstrapInterface;
 
 class Module extends \yii\base\Module implements BootstrapInterface
 {
-    public $controllerNamespace = 'vm\module\controllers';
+    public $controllerNamespace = 'vm\background\module\controllers';
 
     public $workers = [];
 
