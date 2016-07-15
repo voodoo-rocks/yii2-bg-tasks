@@ -1,5 +1,5 @@
 <?php
-namespace vm\daemon;
+namespace vm\background;
 
 use yii\base\Component;
 

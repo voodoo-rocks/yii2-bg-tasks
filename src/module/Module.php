@@ -1,5 +1,5 @@
 <?php
-namespace vm\module;
+namespace vm\background\module;
 
 use yii\base\BootstrapInterface;
 

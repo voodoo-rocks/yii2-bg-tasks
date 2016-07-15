@@ -1,7 +1,7 @@
 <?php
-namespace vm\daemon\examples;
+namespace vm\background\examples;
 
-use vm\daemon\AbstractWorker;
+use vm\background\AbstractWorker;
 
 /**
  * For example like a queue we will use our SQL DB and Task table.
