@@ -1,5 +1,5 @@
 <?php
-namespace vm\background\module\controllers;
+namespace vm\background\module\commands;
 
 class WatcherController extends \vyants\daemon\controllers\WatcherDaemonController
 {

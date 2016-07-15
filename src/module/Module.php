@@ -5,9 +5,20 @@ use yii\base\BootstrapInterface;
 
 class Module extends \yii\base\Module implements BootstrapInterface
 {
-    public $controllerNamespace = 'vm\background\module\controllers';
+    public $controllerNamespace = 'app';
 
     public $workers = [];
+
+    public function init()
+    {
+        $this->controllerMap['watcher'] = [
+            'class' => 'vm\background\module\commands\WatcherController',
+        ];
+
+        $this->controllerMap['worker'] = [
+            'class' => 'vm\background\module\commands\WorkerController',
+        ];
+    }
 
     public function bootstrap($app)
     {

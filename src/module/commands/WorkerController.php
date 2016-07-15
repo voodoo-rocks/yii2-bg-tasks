@@ -1,5 +1,5 @@
 <?php
-namespace vm\background\module\controllers;
+namespace vm\background\module\commands;
 
 use vyants\daemon\DaemonController;
 
