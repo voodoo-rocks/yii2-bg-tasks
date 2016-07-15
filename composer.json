@@ -1,12 +1,12 @@
 {
-  "name": "voodoo-mobile/yii2-daemon",
+  "name": "voodoo-mobile/yii2-bg-tasks",
   "type": "library",
   "description": "Library for do background tasks in your app",
   "keywords": [
     "upload",
     "binary"
   ],
-  "homepage": "https://github.com/voodoo-mobile/yii2-daemon",
+  "homepage": "https://github.com/voodoo-mobile/yii2-bg-tasks",
   "license": "MIT",
   "authors": [
     {

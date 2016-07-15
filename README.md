@@ -1,1 +1,1 @@
-# yii2-background
+# yii2-bg-tasks
