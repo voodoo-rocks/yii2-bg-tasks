@@ -23,7 +23,7 @@ class Module extends \yii\base\Module implements BootstrapInterface
     public function bootstrap($app)
     {
         $app->set('background', [
-            'class' => 'vm\daemon\BackgroundTasks',
+            'class' => 'vm\background\BackgroundTasks',
             'workers' => $this->workers
         ]);
     }
