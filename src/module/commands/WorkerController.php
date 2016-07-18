@@ -9,7 +9,7 @@ class WorkerController extends DaemonController
      * @var int Delay between task list checking
      * @default 5sec
      */
-    protected $sleep = 5;
+    public $sleep = 5;
 
     /**
      * @return array
