@@ -11,6 +11,8 @@ class WorkerController extends DaemonController
      */
     public $sleep = 5;
 
+    public $isMultiInstance = true;
+
     /**
      * @return array
      */
