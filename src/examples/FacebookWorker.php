@@ -50,6 +50,7 @@ class FacebookWorker extends AbstractWorker
 
         foreach ($deadTasks as $deadTask) {
             $deadTask->status = 'aborted';
+            $deadTask->save();
         }
 
         return true;
