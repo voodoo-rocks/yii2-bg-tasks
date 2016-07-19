@@ -40,7 +40,6 @@ class BackgroundTasks extends Component
         if (!$worker) {
             \Yii::error('Worker '. $taskData['worker'] . ' not found');
         }
-        \Yii::info('Step 10 completed');
         $worker->start($taskData['task']);
     }
 
