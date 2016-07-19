@@ -44,6 +44,11 @@ class BackgroundTasks extends Component
         $worker->start($taskData['task']);
     }
 
+    public function __get($name)
+    {
+        return $this->canGetProperty($name) ? parent::__get($name) : $this->getWorker($name);
+    }
+
     /**
      * @param $name
      * @return AbstractWorker
