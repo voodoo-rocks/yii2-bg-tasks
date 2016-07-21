@@ -6,7 +6,7 @@ use yii\base\Component;
 abstract class AbstractWorker extends Component
 {
     /** seconds to task expire */
-    public $deadTime = 60 * 10;
+    public $deadTime = 600;
 
     public $name;
 
