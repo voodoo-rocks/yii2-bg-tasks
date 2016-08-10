@@ -5,17 +5,11 @@ class WatcherController extends \vyants\daemon\controllers\WatcherDaemonControll
 {
     public $sleep = 10;
 
-    /**
-     * @return array
-     */
-    protected function defineJobs()
+    protected function getDaemonsList()
     {
-        sleep($this->sleep);
-        $daemons = [
+        return [
             ['className' => 'WorkerController', 'enabled' => true]
         ];
-
-        return $daemons;
     }
 
     /**
