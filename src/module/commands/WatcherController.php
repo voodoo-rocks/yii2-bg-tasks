@@ -5,6 +5,8 @@ class WatcherController extends \vyants\daemon\controllers\WatcherDaemonControll
 {
     public $sleep = 10;
 
+    public $daemonFolder = null;
+
     protected function getDaemonsList()
     {
         return [
