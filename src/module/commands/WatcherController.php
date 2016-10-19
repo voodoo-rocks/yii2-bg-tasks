@@ -94,7 +94,7 @@ class WatcherController extends \vyants\daemon\controllers\WatcherDaemonControll
         }
         $config = [
             'levels' => ['error', 'warning', 'trace', 'info'],
-            'logFile' => \Yii::getAlias($this->logDir) . DIRECTORY_SEPARATOR . $this->shortClassName() . '.log',
+            'logFile' => \Yii::getAlias($this->logDir) . DIRECTORY_SEPARATOR . 'DaemonController.log',
             'logVars'=>[], // Don't log all variables
             'exportInterval'=>1, // Write each message to disk
             'except' => [
